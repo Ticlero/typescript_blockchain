@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",
+        //디버그가 가능하도록해주는 SourceMap을 생성여부
+        "sourceMap": true,
+        "outDir": "dist"
+        //"lib": ["ES2015"]
+    },
+    "include": ["src/**/*"],
+    //default로 node_modules는 exclude 하는게 좋다.
+    "exclude": ["node_modules"]
+}
